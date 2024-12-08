@@ -1,5 +1,6 @@
 let deliveries = []; // Array to track all deliveries
 let currentProducts = []; // Array for products of the current delivery
+let deliveryCounter = 1; // Counter for numbering deliveries
 let editingDeliveryIndex = null; // Track the index of the delivery being edited
 
 // Load data from JSON files
@@ -109,8 +110,9 @@ function finalizeDelivery() {
     ];
     editingDeliveryIndex = null; // Reset editing index
   } else {
-    // Add a new delivery
+    // Add a new delivery with a unique number
     deliveries.push({
+      id: deliveryCounter++, // Assign the current counter value and increment
       customer,
       products: [...currentProducts]
     });
@@ -136,7 +138,7 @@ function updateDeliveryGrid() {
       .join('');
 
     container.innerHTML = `
-      <h3>Delivery</h3>
+      <h3>Delivery #${delivery.id}</h3>
       <p><strong>Customer:</strong> ${delivery.customer.name}</p>
       <p><strong>Address:</strong> ${delivery.customer.address.join(', ')}</p>
       <p><strong>Phone:</strong> ${delivery.customer.phone.join(', ')}</p>
@@ -148,16 +150,16 @@ function updateDeliveryGrid() {
 
     deliveryGrid.appendChild(container);
   });
+
+  updateDeliveryTotal();
 }
 
 // Edit an existing delivery
 function editDelivery(index) {
   const delivery = deliveries[index];
 
-  // Set the customer reel to the selected customer
   document.getElementById('customer-reel').value = delivery.customer.id;
 
-  // Load the products into currentProducts for editing
   currentProducts = [...delivery.products];
   updateProductList();
 
@@ -168,6 +170,21 @@ function editDelivery(index) {
 function removeDelivery(index) {
   deliveries.splice(index, 1);
   updateDeliveryGrid();
+}
+
+// Calculate and display the total number of deliveries
+function updateDeliveryTotal() {
+  const totalDeliveries = deliveries.length;
+  const totalElement = document.getElementById('delivery-total');
+
+  if (!totalElement) {
+    const newTotalElement = document.createElement('div');
+    newTotalElement.id = 'delivery-total';
+    newTotalElement.textContent = `Total Deliveries: ${totalDeliveries}`;
+    document.body.appendChild(newTotalElement);
+  } else {
+    totalElement.textContent = `Total Deliveries: ${totalDeliveries}`;
+  }
 }
 
 // Event listeners
