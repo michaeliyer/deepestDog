@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "John Squires",
+    "address": ["1234 Whatever Street", "Toronto, ON", "K2J 1L9"],
+    "phone": ["1-416-666-7788", "1-416-555-1234"],
+    "notes": "Leave at the front door."
+  },
+  {
+    "id": 2,
+    "name": "Sally McJohnson",
+    "address": ["2312 Dogwood Lane", "Scarborough, ON", "K1A 0B1"],
+    "phone": ["1-416-123-4567"],
+    "notes": "Call upon arrival."
+  },
+  {
+    "id": 3,
+    "name": "Robert Miller",
+    "address": ["568 Pine Avenue", "Mississauga, ON", "L4Z 1P5"],
+    "phone": ["1-905-123-9876"],
+    "notes": "Ring doorbell twice."
+  },
+  {
+    "id": 4,
+    "name": "Emily Carter",
+    "address": ["478 Oak Street", "Markham, ON", "L3R 2V3"],
+    "phone": ["1-905-456-7890"],
+    "notes": "Leave on the porch."
+  },
+  {
+    "id": 5,
+    "name": "Michael Johnson",
+    "address": ["341 Elm Drive", "Brampton, ON", "L6W 2X1"],
+    "phone": ["1-905-222-3456"],
+    "notes": "Text when outside."
+  },
+  {
+    "id": 6,
+    "name": "Laura Smith",
+    "address": ["890 Maple Street", "Pickering, ON", "L1V 2P7"],
+    "phone": ["1-905-654-3210"],
+    "notes": "Use side entrance."
+  },
+  {
+    "id": 7,
+    "name": "Daniel Green",
+    "address": ["142 Birch Avenue", "Oshawa, ON", "L1H 3Y8"],
+    "phone": ["1-905-777-8888"],
+    "notes": "Knock loudly."
+  },
+  {
+    "id": 8,
+    "name": "Sophia Williams",
+    "address": ["222 Cedar Road", "Richmond Hill, ON", "L4B 3J5"],
+    "phone": ["1-905-888-9999"],
+    "notes": "Call before arriving."
+  },
+  {
+    "id": 9,
+    "name": "James Taylor",
+    "address": ["760 Willow Lane", "Ajax, ON", "L1S 4Y4"],
+    "phone": ["1-905-333-4444"],
+    "notes": "Park in driveway."
+  },
+  {
+    "id": 10,
+    "name": "Olivia Brown",
+    "address": ["930 Chestnut Court", "Vaughan, ON", "L6A 3Z2"],
+    "phone": ["1-905-555-1212"],
+    "notes": "Deliver to backdoor."
+  },
+  {
+    "id": 11,
+    "name": "David Wilson",
+    "address": ["561 Evergreen Terrace", "Toronto, ON", "M5A 1K2"],
+    "phone": ["1-416-789-4561"],
+    "notes": "Call for gate code."
+  },
+  {
+    "id": 12,
+    "name": "Lily Adams",
+    "address": ["104 Ash Crescent", "Etobicoke, ON", "M8V 3X4"],
+    "phone": ["1-416-555-7890"],
+    "notes": "Knock on garage door."
+  }
+]

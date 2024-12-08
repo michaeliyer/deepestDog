@@ -1,0 +1,14 @@
+[
+  { "id": 101, "description": "Dog Food 10kg" },
+  { "id": 102, "description": "Chew Toys (Pack of 5)" },
+  { "id": 103, "description": "Collar and Leash Set" },
+  { "id": 104, "description": "Puppy Training Pads (Pack of 50)" },
+  { "id": 105, "description": "Dog Bed (Large)" },
+  { "id": 106, "description": "Grooming Kit" },
+  { "id": 107, "description": "Dental Chews (Pack of 10)" },
+  { "id": 108, "description": "Travel Carrier (Medium)" },
+  { "id": 109, "description": "Dog Shampoo" },
+  { "id": 110, "description": "Dog Water Fountain" },
+  { "id": 111, "description": "LED Glow Collars" },
+  { "id": 112, "description": "Adjustable Harness" }
+]

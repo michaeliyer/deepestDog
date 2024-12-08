@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Delivery Sheet</h1>
+
+  <!-- Reel for selecting Customer -->
+  <div id="selection-section">
+    <label for="customer-reel">Select Customer:</label>
+    <select id="customer-reel"></select>
+
+    <label for="product-reel">Select Product:</label>
+    <select id="product-reel"></select>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1">
+
+    <button id="add-product">Add Product</button>
+  </div>
+
+  <!-- Display selected products -->
+  <h3>Selected Products:</h3>
+  <ul id="product-list"></ul>
+
+  <!-- Finalize delivery -->
+  <button id="finalize-delivery">Finalize Delivery</button>
+
+  <!-- Grid for Delivery Details -->
+  <div id="delivery-grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
