@@ -142,6 +142,7 @@ function updateDeliveryGrid() {
       <p><strong>Customer:</strong> ${delivery.customer.name}</p>
       <p><strong>Address:</strong> ${delivery.customer.address.join(', ')}</p>
       <p><strong>Phone:</strong> ${delivery.customer.phone.join(', ')}</p>
+      <p><strong>Notes:</strong> ${delivery.customer.notes || "No notes provided."}</p>
       <h4>Products:</h4>
       <ul>${productListHTML}</ul>
       <button onclick="editDelivery(${index})">Edit</button>
