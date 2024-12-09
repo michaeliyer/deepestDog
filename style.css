@@ -72,6 +72,8 @@ h1 {
 body {
   font-family: Arial, sans-serif;
   margin: 10px; /* Default margin for larger screens */
+  background-color: cornflowerblue;
+  color: darkred;
 }
 
 h1 {
@@ -88,7 +90,8 @@ h3, h4 {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 5px 0;
-  background-color: #f9f9f9;
+  background-color: #5abe7a;
+  /* background-color: #f9f9f9; */
   border-radius: 5px;
 }
 
