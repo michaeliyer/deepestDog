@@ -59,3 +59,7 @@ h1 {
 .delivery-container button:nth-child(2):hover {
   background-color: #c0392b;
 }
+
+#delivery-grid {
+  line-height: .3rem;
+}
